@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageH
 import yt_dlp
 import os
 
-TOKEN = os.getenv("7591723699:AAEMp8YORb7Gk6HERj7bdn7Xzls_9CsrAWQ")
+TOKEN = os.getenv("TOKEN")
 
 def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
